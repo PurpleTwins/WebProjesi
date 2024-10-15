@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; 
+}
+
+.main {
+  width: 100%;
+  background-image: url(./images/arkaplan.jpg);
+  background-size: cover; /* Resmin tam sayfayı kaplamasını sağlar */
+  background-attachment: fixed; /* Arka planın sabit kalmasını sağlar*/
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  position: fixed;  /* Navbar'ın sabit kalmasını sağlar */
+  width: 100%;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  height: 60px; 
+}
+
+li a {
+  display: inline-block; 
+  color: rgb(255, 255, 255);
+  padding: 20px 30px; /* Yukarı-aşağı ve yanlara padding ekledik */
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+}
+
+li a:hover {
+  background-color: rgb(167, 122, 167);
+
+}
+
+.content {
+  padding: 2px;
+  margin-top: 110px;
+  height: 890px;
+  width: 100%;
+  font-family: 'Muli', sans-serif;
+  color: rgb(221, 205, 205);
+}
+
+.bayrak a img  {
+  width: 40px;
+  vertical-align: middle;
+}
+
+.baslik {
+  font-size: 60px;
+  text-align: center;
+  color: gainsboro;
+}
+
+.paragraf {
+  font-size: 22px;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bayrak-logo img {
+  padding-top: 200px;
+  width: 300px;
+  float: right;
+}
+
+.paragraf2 {
+  padding-top: 200px;  
+  padding-left: 50px;
+  width: 920px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.tarihcebg {
+  background-color: #dddc5b;
+}
+ 
+.hr {
+  clear: both;
+  margin-top: 60px; /* Navbar'ın altına biraz boşluk bırak */
+  border: none;
+  border-top: 2px solid rgb(167, 122, 167); /* İsteğe bağlı: çizginin stilini ayarlamak için */
+  width: 100%; /* Tüm genişlik boyunca uzanması için */
+  color: white;
+}
